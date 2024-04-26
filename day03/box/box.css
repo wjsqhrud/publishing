@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: flex-end;
+  align-items: center;
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid #dbdbdb;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.green {
+  background-color: green;
+}
+
+.mint {
+  background-color: aqua;
+}
+
+.lemon {
+  background-color: lime;
+}
+
+.yellow {
+  background-color: yellow;
+}
