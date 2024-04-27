@@ -2,7 +2,7 @@
   background-color: #4a76ba;
   display: flex;
   gap: 20px;
-  /* 안에 있는 내용만 보이는 넙ㄹ이로 해주셈 */
+  /* 안에 있는 내용만 보이는 넓이로 해주셈 */
   width: fit-content;
   padding: 30px;
 }
@@ -30,4 +30,44 @@
 
 .blue {
   color: #4476fe;
+}
+
+.content_layout {
+  border: 1px solid #dbdbdb;
+  border-radius: 14px;
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+  padding: 30px;
+}
+
+.content_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+.text_c {
+  font-size: 15px;
+}
+
+.skyblue {
+  color: skyblue;
+}
+
+.yellow {
+  color: lemonchiffon;
+}
+
+.green {
+  color: greenyellow;
 }
