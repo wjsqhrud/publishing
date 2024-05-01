@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Pretendard-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
     format("woff");
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -10,11 +10,50 @@
   display: flex;
   gap: 20px;
 }
-.card {
+.card1 {
   width: 280px;
   height: 380px;
   border-radius: 12px;
   background-image: url(grand.jpg);
+  background-size: cover;
+  filter: brightness(1.08);
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card2 {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url(pool.jpg);
+  background-size: cover;
+  filter: brightness(1.08);
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card3 {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url(view.jpg);
+  background-size: cover;
+  filter: brightness(1.08);
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card4 {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url(pool1.jpg);
   background-size: cover;
   filter: brightness(1.08);
   padding: 10px 15px 10px 15px;
@@ -35,8 +74,8 @@
   flex-direction: column;
   gap: 10px;
 }
-.tatle > span {
-  font-family: "Pretendard-Regular";
+.title > span {
+  font-family: "JalnanGothic";
   color: white;
   font-size: 28px;
 }
