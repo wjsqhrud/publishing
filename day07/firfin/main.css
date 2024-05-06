@@ -1,5 +1,5 @@
 .first {
-  background-color: var(--primary-purple-300);
+  background-color: var(--primary-purple-200);
   width: 100vw;
   height: 100vh;
   gap: 100px;
@@ -10,7 +10,7 @@
   gap: 80px;
   display: flex;
   flex-direction: column;
-  padding: 150px 150px;
+  padding: 300px 225px;
 }
 
 .contents {
@@ -20,44 +20,55 @@
 .main {
   display: flex;
   flex-direction: column;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 800;
   gap: 10px;
 }
 
 .sub {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 .buttons {
   display: flex;
-  gap: 5px;
+  gap: 10px;
+  width: 800px;
+  height: 60px;
 }
 
-.button {
+.button1 {
   background-color: var(--primary-purple-50);
-  padding: 10px 16px;
+  padding: 15px 16px;
   font-weight: 600;
+  font-size: 24px;
 }
+
+.button2 {
+  background-color: var(--primary-purple-50);
+  padding: 15px 16px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
 .image {
   display: flex;
 }
 
 .imageBox1 {
   position: absolute;
-  width: 500px;
-  height: 600px;
-  right: 100px;
+  width: 1000px;
+  height: 900px;
+  right: 250px;
   z-index: 1;
 }
 
 .imageBox2 {
   position: absolute;
-  width: 300px;
-  height: 500px;
+  width: 700px;
+  height: 800px;
   top: 100px;
-  right: 50px;
+  right: 150px;
 }
 
 .imageBox1 > img {
@@ -70,4 +81,60 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.second {
+  background-color: beige;
+  width: 100vw;
+  height: 400px;
+}
+
+.second > .container {
+  max-width: var(--max-width-1);
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  height: 206px;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.star {
+  color: var(--primary-purple-300);
+  padding-top: 20px;
+}
+
+.text {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo {
+  padding-top: 35px;
+}
+
+.button_prev {
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 17px;
+}
+
+.button_next {
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 17px;
+}
+
+.mask-box2{
+  transition;
 }
