@@ -1,0 +1,20 @@
+.second {
+  position: relative;
+}
+
+.second__inner {
+  margin-top: 250px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: grey;
+}
+
+.second__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second__article {
+  width: 280px;
+}

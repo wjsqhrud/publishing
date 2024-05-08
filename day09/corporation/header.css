@@ -1,0 +1,25 @@
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 800;
+  z-index: 1;
+}
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav > .nav__navigation {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
