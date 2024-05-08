@@ -1,0 +1,48 @@
+.second {
+  position: relative;
+  width: 100vw;
+  height: 600px;
+}
+
+.second__inner {
+  padding: 150px 0 0 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #555;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.second__wrap {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.second__article {
+  width: 280px;
+}
+
+.second__article__picture {
+  width: 100%;
+  height: 120px;
+}
+
+.second__article__picture > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.second__article__title {
+  padding: 25px 0 15px 0;
+  font-weight: 800;
+  color: #555;
+}
+
+.second__article__description {
+  color: grey;
+}

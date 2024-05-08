@@ -1,0 +1,38 @@
+footer {
+  width: 100vw;
+  background-color: #333;
+  padding: 100px 0;
+}
+
+.footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__inner__upper {
+  display: flex;
+  gap: 750px;
+  color: #666;
+  border-bottom: 1px solid#777;
+  padding-bottom: 20px;
+}
+
+.footer__inner__upper__contents {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__inner__upper__name {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer__inner__lower {
+  padding-top: 20px;
+  color: #777;
+  font-size: 12px;
+}
+
+.footer__inner__lower__address {
+  margin-bottom: 20px;
+}
