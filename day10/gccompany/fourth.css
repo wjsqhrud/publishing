@@ -1,0 +1,44 @@
+.fourth {
+  position: relative;
+  /* width: 100vw;
+  height: 600px; */
+  top: 650px;
+}
+
+.fourth__imageBox {
+  width: 100%;
+  height: 100%;
+  /* background-image: url(image5.webp); */
+}
+
+.fourth__imageBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fourth__text {
+  position: absolute;
+  max-width: 1200px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.fourth__text__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.fourth__text__buttons__red {
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+
+.fourth__text__button__white {
+  border: 1px solid whitesmoke;
+  background-color: white;
+  border-radius: 10px;
+}
