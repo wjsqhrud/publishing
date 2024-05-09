@@ -1,0 +1,39 @@
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  font-size: 18px;
+  z-index: 1;
+  font-weight: 600;
+  background-color: white;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav__menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav__logo {
+  width: 120px;
+}
+
+.nav__logo > img {
+  width: 100%;
+}
+
+.nav__menu__6 {
+  color: red;
+}
+
+.nav__menu__7 > i {
+  color: grey;
+}
