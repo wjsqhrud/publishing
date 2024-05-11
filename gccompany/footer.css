@@ -1,16 +1,17 @@
 footer {
   display: flex;
-}
-.footer__container__contact {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 50px;
+  gap: 180px;
+  border-top: 1px solid black;
 }
 
 .footer__container__contact__name {
   font-size: 13px;
   font-weight: 600;
   margin-bottom: 10px;
+  margin-top: 50px;
 }
 .footer__container__contact__tel {
   font-weight: 700;
@@ -30,7 +31,7 @@ footer {
 .footer__container__navi__name {
   font-size: 13px;
   font-weight: 600;
-  margin-bottom: 10px;
+  padding: 20px 0 20px 0;
 }
 
 .footer__container__navi__button {
@@ -60,6 +61,7 @@ footer {
   margin-top: 25px;
   font-weight: 600;
   font-size: 13px;
+  text-decoration: underline;
 }
 
 .footer__container__c {
@@ -69,12 +71,20 @@ footer {
   font-weight: 600;
 }
 
-.footer__sns__name {
-  margin-bottom: 10px;
+.footer__snsBox__name {
+  margin-bottom: 15px;
   font-size: 13px;
   font-weight: 600;
+  margin-top: 50px;
 }
-.footer__sns__button > img {
-  width: 15px;
-  height: 15px;
+.footer__snsBox__buttons__button {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.footer__snsBox__buttons__button > img {
+  width: 16px;
+  height: 16px;
+  /* filter: grayscale(100%); */
+  color: grey;
 }
